@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+
+.cards {
+display: flex;
+padding: 20px;
+width:100%;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+min-height: 750px;
+}
+
+.cards{
+    text-align:center;
+    padding: 20px;
+    
+}
+
+.card {
+    margin: 20px; 
+    width: 400px;
+    height: 500px;
+    }
+
+.card img{
+    max-height: 200px;
+}
+
+.card p{
+    height: 40px;
+}
+
+img{
+    max-width: 100%;
+    }
+    
+
+    h1{
+        text-align:center;
+        background-color: rgb(114, 20, 13);
+        color: white;
+        padding: 20px;
+    }
+
+    h2{
+        text-align:center;
+        color: rgb(130, 37, 37);
+        padding: 20px;
+        
+    }
+        
+h3{
+        text-align:center;
+        color: rgb(130, 37, 37);
+        padding: 20px;
+        
+ }
+    
+
+
+nav li:hover {
+    background-color: rgb(161, 73, 72);
+  }
+
+  nav ul{
+    width: 100%;
+    list-style-type: none;
+    color: black;
+    text-align: center;
+}
+    
+
+  nav a{
+    text text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px:
+}
+
+nav li{
+    display: inline-flex;
+}
+
+p{
+    text-align:center;
+    color: rgb(130, 37, 37);
+    display: flex;
+}
+
+Button{
+text-align: center;
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(114, 20, 13);
+    margin-top: 30px;
+}
+
+footer p2{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     
+}
